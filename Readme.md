@@ -1,7 +1,7 @@
-# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+﻿# Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Андрей Киселев](https://up.htmlacademy.ru/adaptive/9/user/44824).
-* Наставник: `Неизвестно`.
+* Наставник: Нет.
 
 ---
 

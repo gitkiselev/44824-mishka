@@ -3,10 +3,97 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Мишка</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/page-header.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+	<div class="wrapper">
+		<header class="page-header">
+			<div class="page-header__inner">
+				<div class="page-header__logo">
+					<a href="index.html" class="pagr-header__link">
+						<img src="img/header-logo.png">
+					</a>
+				</div>
+				<nav class="main-nav">
+					<button class="main-nav__trigger" type="button">
+						<span></span>
+					</button>
+					<ul class="main-nav__list">
+						<li class="main-nav__item"><a href="" class="main-nav__link">Каталог товаров</a></li>
+						<li class="main-nav__item"><a href="" class="main-nav__link">Вязание на заказ</a></li>
+						<li class="main-nav__item"><a href="" class="main-nav__link">Поиск по сайту</a></li>
+						<li class="main-nav__item"><a href="" class="main-nav__link">Корзина:  пока пуста</a></li>
+					</ul>
+				</nav>
+				
+				
+			</div>
+		</header>
+		<main class="main">
+			<section class="promo">
+					<div class="promo__inner">
+						<h1 class="promo__title">Милые штуки ручной работы для дома</h1>
+						<ul class="promo__list">
+							<li class="promo__item">Предметы интерьера</li>
+							<li class="promo__item">Детские игрушки</li>
+						</ul>
+					</div>
+				</section>
+			<section class="goods">
+					<div class="goods__inner">
+						<div class="goods__info">
+							<p class="goods__desc">Экологически чиста пряжа, ручная работа. Доступны в шести расцветках, и трех размерах</p>
+							<dl class="goods__prop">
+								<dt class="goods__prop-title">Цвет:</dt><dd class="goods__prop-desc">&laquo;Тиффани/серый&raquo;</dd>
+								<dt class="goods__prop-title">Диаметр</dt><dd class="goods__prop-desc">25 см</dd>
+								<dt class="goods__prop-title">Высота</dt><dd class="goods__prop-desc">15 см</dd>
+							</dl>
+						</div>
+						<div class="goods__img">
+							<img src="img/basket.png" alt="">
+						</div>
+						<div class="goods__buy">
+							<div class="goods__price">Цена: 990 руб.</div>
+							<div class="goods__order"><a class="goods__link" href="">Заказать</a></div>
+						</div>
+					</div>
+			</section>
+			<section class="advantages">
+				<div class="advantages__inner">
+					<h2 class="advantages__title">Коротко о нас:</h2>
+					<ul class="advantages__list">
+						<li class="advantages__item"><img src="img/" alt=""><span>Экологически чистые материалы</span></li>
+						<li class="advantages__item"><img src="img/" alt=""><span>Скандинавский стиль по российской цене</span></li>
+						<li class="advantages__item"><img src="img/" alt=""><span>Увеличивает лайки на фотографиях</span></li>
+						<li class="advantages__item"><img src="img/" alt=""><span>Связано вручную с любовью и умилением</span></li>
+						<li class="advantages__item"><img src="img/" alt=""><span>Поддержка отечественного производителя</span></li>
+						<li class="advantages__item"><img src="img/" alt=""><span>Поставляется в подарочной упаковке</span></li>
+					</ul>
+				</div>
+			</section>
+			<section class="reviews">
+				<div class="reviews__inner">
+					<h2 class="reviews__title">Отзывы</h2>
+					<ul class="reviews__list">
+						<li class="reviews__item"><blockquote class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</blockquote>
+							<span class="reviews__user">Анастасия Красильникова</span>
+							<span class="reviews__contact">@misssssiskras</span>
+						</li>
+						<li class="reviews__item"><blockquote class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</blockquote>
+							<span class="reviews__user">Анастасия Красильникова</span>
+							<span class="reviews__contact">@misssssiskras</span>
+						</li>
+						<li class="reviews__item"><blockquote class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</blockquote>
+							<span class="reviews__user">Анастасия Красильникова</span>
+							<span class="reviews__contact">@misssssiskras</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+	</div>
+	<footer class="page-footer"></footer>
   </body>
 </html>
