@@ -1,18 +1,31 @@
-@import '_normalize.scss';
-@import '_layout.scss';
-@import '_page-header.scss';
-@import '_main.scss';
-@import '_promo.scss';
-@import '_goods-week.scss';
-@import '_advantages.scss';
-@import '_reviews.scss';
-@import '_contacts.scss';
-@import '_page-footer.scss';
-@import '_copyright.scss';
-@import '_goods.scss';
-@import '_production-process.scss';
-@import '_order-form.scss';
-@import '_submit-box.scss';
-@import '_typography.scss';
-@import '_mixins.scss';
+
+@import "normalize.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global/fonts.scss";
+@import "global/layout.scss";
+@import "global/typography.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/main.scss";
+
+@import "blocks/promo.scss";
+@import "blocks/goods-week.scss";
+@import "blocks/advantages.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";
+
+@import "blocks/copyright.scss";
+/*catalog.html*/
+@import "blocks/goods.scss";
+
+@import "blocks/production-process.scss";
+
+
+@import "blocks/order-form.scss";
+@import "blocks/submit-box.scss";
+/**/
+@import "blocks/modal.scss";
 
