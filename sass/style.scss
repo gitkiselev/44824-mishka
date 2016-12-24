@@ -1,0 +1,29 @@
+@import "normalize.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global/fonts.scss";
+@import "global/layout.scss";
+@import "global/typography.scss";
+
+@import "blocks/page-header.scss";
+@import "blocks/main.scss";
+
+@import "blocks/promo.scss";
+@import "blocks/goods-week.scss";
+@import "blocks/advantages.scss";
+@import "blocks/reviews.scss";
+@import "blocks/contacts.scss";
+@import "blocks/page-footer.scss";
+
+@import "blocks/copyright.scss";
+/*catalog.html*/
+@import "blocks/goods.scss";
+
+@import "blocks/production-process.scss";
+
+
+@import "blocks/order-form.scss";
+@import "blocks/submit-box.scss";
+/**/
+@import "blocks/modal.scss";
